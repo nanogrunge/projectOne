@@ -8,14 +8,17 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+<div id="div2">
     <div>
         <form action="" id="loginForm" class="box">
+            <label id="error"> error </label>
             <h1>Login</h1>
-            <input type="text" id="userName" placeholder="username">
-            <input type="password" placeholder="password">
+            <input type="text" id="userName" placeholder="username" required>
+            <input type="password" id="password" placeholder="password">
             <input type="submit" id="logBtn" value="login">
         </form>
     </div>
+</div>
     <script src="app.js"></script>
 </body>
 </html>

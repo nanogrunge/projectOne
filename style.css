@@ -4,7 +4,16 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     background: #71BAC8;
 }
-.box h1{
+
+.box label{
+    background: coral; 
+    display: none;
+    font-weight: bold; 
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.box h1, .box label{
     color: aliceblue;
 
 }
